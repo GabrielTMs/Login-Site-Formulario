@@ -33,13 +33,13 @@ section {
 }
 div#Fot {
     width: 100%;
+    height: 100%;
     height: 280px;
     background-image: url(../Imagens/jack_jiao-modern-4428919_1920.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
     overflow: hidden;
-    margin-top: -1px;
     border-radius: 20px 20px 0px 0px;
 }
 h1#Titulo {
@@ -54,46 +54,50 @@ p#subt {
     margin-top: 10px;
     padding: 0px;
 }
+.camp {
+     display: inline-block;
+     background-color: #316D8C;
+     margin: 10px 0px;
+     width: 100%;
+     max-width: 250px;
+     
+}
 p.espForm {
     padding-top: 10px;
 }
-p.fontsub {
-    font: normal 1.2em 'Principal', Arial, Helvetica, sans-serif ;
+p.espForm2 {
+    padding-top: 13px;
+}
+p.espMaior {
+    padding-top: 23px;
+}
+input[type=submit] {
+    font: normal 1em 'Principal', Arial, Helvetica, sans-serif ;
+}
+input[type=reset] {
+    font: normal 1em 'Principal', Arial, Helvetica, sans-serif ;
+}
+input.subm {
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
+    padding: 8px;
 }
 form {
-    margin-top: 40px;
-    padding-bottom: 60px;
+    margin-top: 31px;
+    padding-bottom: 23px;
 }
-input {
+input.pforms {
     width: 100%;
+    height: 100%;
     height: 26px;
     max-width: 201px;
     border: 2px solid #316D8C;
     border-radius: 0px 6px 6px 0px;
-    
-
-}
-input.subm {
-    border-radius: 3px;
-    font: normal 1.2em 'Principal', Arial, Helvetica, sans-serif ;
-    width: 100%;
-    height: 30px;
-    max-width: 201px;
-    padding: 10px;
-}
-#imagem1 {
-    display: inline-block;
-    position: absolute;
-    top: 23.93%;
-    left: 15.63%;
-    transform: translate(-50%,-50%);
-}
-#imagem2 {
-
+    font-size: 17px;
 }
 .material-symbols-outlined {
-    font-size: 1.9em;
-    background-color: #316D8C;
+    font-size: 1.93em;
     color: #262837;
     border-radius: 6px 0px 0px 6px;
 }
