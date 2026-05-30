@@ -11,12 +11,24 @@
 <body>
     <main>
         <section>
-            <form action="cadastro.php" method="post">
-                <p><label for="inom">
-                    <span class="material-symbols-outlined">person
+            <div id="Fot">
+            
+            </div>
+                <h1 id="Titulo">Login</h1>
+                <p id="subt">Coloque seu nome e senha abaixo.</p>
+            
+            <div id="imagem1">
+                <span class="material-symbols-outlined">person
                     </span>
-                </label> <input type="text" name="nom" id="inom">
+            </div>
+            <div>
+            <form action="cadastro.php" method="post">
+                <p><input type="text" name="nom" id="inom">
                 </p>
+                <p class="espForm"><input type="password" name="sen" id="isen"></p>
+                <p class="espForm fontsub"><input type="submit" value="Enviar" class="subm"></p>
+                <p class="espForm fontsub"><input type="reset" value="Limpar" class="subm"></p>
+
             </form>
         </section>
     </main>
