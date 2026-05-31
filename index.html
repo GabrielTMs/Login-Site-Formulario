@@ -12,18 +12,19 @@
     <main>
         <section>
             <div id="Fot">
-            
             </div>
+    
+            <header>
                 <h1 id="Titulo">Login</h1>
                 <p id="subt">Coloque seu nome e senha abaixo.</p>
-            
+            </header>
            
             <div>
             <form action="cadastro.php" method="post">
                 
                 <div class="camp">
                     <p>
-                    <span class="material-symbols-outlined">person
+                    <span class="material-symbols-outlined" id="pers">person
                     </span>
                     <input type="text" name="nom" id="inom" class="pforms">
                     </p>
@@ -32,9 +33,13 @@
                     <p>
                         <span class="material-symbols-outlined">password_2</span>
                         <input type="password" name="sen" id="isen" class="pforms">
-                    </p>
-                    
+                    </p> 
                 </div>
+
+                <div class="link">
+                    <a href="#">Esqueceu a senha, clique aqui.</a>
+                </div>
+
                 <p class="espMaior"><input type="submit" value="Enviar" class="subm"></p>
                 <p class="espForm2"><input type="reset" value="Resetar" class="subm"></p>
 

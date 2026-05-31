@@ -20,7 +20,6 @@ main {
 }
 section {
     position: absolute;
-    transform: translate(-50%,-50%);
     top: 50%;
     left: 50%;
     text-align: center;
@@ -29,6 +28,10 @@ section {
     border-radius: 20px;
     width: 100%;
     max-width: 340px;
+    transform: translate(-50%,-50%);
+    box-shadow: 2px 2px 3.5px #13141434;
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
     
 }
 div#Fot {
@@ -54,6 +57,10 @@ p#subt {
     margin-top: 10px;
     padding: 0px;
 }
+form {
+    margin-top: 20px;
+    padding-bottom: 23px;
+}
 .camp {
      display: inline-block;
      background-color: #316D8C;
@@ -63,6 +70,18 @@ p#subt {
      border-radius: 6px;
      
 }
+div.link {
+    margin: 5px 0px 10px 0px;
+}
+a {
+    text-decoration: none;
+    font: normal 0.95em 'Principal', Arial, Helvetica, sans-serif ;
+    color: #5a2ba1;
+}
+a:hover {
+    color: #462A70;
+    text-decoration: underline;
+}
 p.espForm {
     padding-top: 10px;
 }
@@ -70,13 +89,7 @@ p.espForm2 {
     padding-top: 13px;
 }
 p.espMaior {
-    padding-top: 23px;
-}
-input[type=submit] {
-    font: normal 1em 'Principal', Arial, Helvetica, sans-serif ;
-}
-input[type=reset] {
-    font: normal 1em 'Principal', Arial, Helvetica, sans-serif ;
+    padding-top: 10px;
 }
 input.subm {
     width: 100%;
@@ -84,27 +97,68 @@ input.subm {
     max-width: 200px;
     padding: 8px;
 }
-form {
-    margin-top: 31px;
-    padding-bottom: 23px;
+input[type=submit] {
+    font: normal 1em 'Principal', Arial, Helvetica, sans-serif ;
+    background-color: #31518C;
+    border: 1px solid #31518C;
+    color: white;
+    border-radius: 4px;
+}
+input[type=submit]:hover {
+    background-color: #426cb9;
+    border: 1px solid #426cb9;
+    cursor: pointer;
+}
+input[type=submit]:active {
+    background-color: #316D8C;
+    border: 1px solid #316D8C;
+    cursor: pointer;
+}
+input[type=reset] {
+    font: normal 1em 'Principal', Arial, Helvetica, sans-serif ;
+    background-color: #31518C;
+    border: 1px solid #31518C;
+    color: white;
+    border-radius: 4px;
+}
+input[type=reset]:hover {
+    background-color: #426cb9;
+    border: 1px solid #426cb9;
+    cursor: pointer;
+}
+input[type=reset]:active {
+    background-color: #316D8C;
+    border: 1px solid #316D8C;
+    cursor: pointer;
 }
 input.pforms {
     width: 100%;
     max-width: 202px;
     height: 100%;
     height: 29px;
-    transform: translateY(-4.5px);
     border: 1px solid #316D8C;
+    background-color: #bbd8d8;
     border-radius: 6px;
     font-size: 17px;
-   
+    padding-left: 2px; /*Esse padding é pra o texto que   
+                         escrever no formulário vir com um espaçamento da borda do formulário*/
+    transform: translateY(-4.5px);
+}
+input.pforms:focus-within {
+    background-color: white;
 }
 .material-symbols-outlined {
     font-size: 1.93em;
-    transform: translateY(4px) ;
-    color: #262837;
-    border-radius: 6px 0px 0px 6px;
+    color: #B5C3C3;
     padding-right: 2px;
     padding-left: 2px;
+    transform: translateY(4.3px);
 
+}
+#pers {
+    font-size: 1.93em;
+    color: #B5C3C3;
+    padding-right: 2px;
+    padding-left: 2px;
+    transform: translateY(5px);
 }

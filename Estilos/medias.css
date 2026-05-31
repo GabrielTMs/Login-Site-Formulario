@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
-@media screen and (min-width:650px) and (max-width:720px){
+@media screen and (min-width:660px) and (max-width:720px){
    section { 
     width: 100%;
-    height: 80vh;
+    height: 65vh;
     max-width: 650px;
 } 
     div#Fot {
@@ -11,5 +11,50 @@
         height: 100%;
         max-width: 280px;
         border-radius: 20px 0px 0px 20px;
+    }
+}
+
+@media screen and (min-width:720px){
+    body {
+        background-image: linear-gradient(to bottom, #B5C3C3, #7a85853b);
+    }
+    section {
+    width: 100vw;
+    height: 80vh;
+    max-width: 1000px;
+} 
+    h1#Titulo {
+        font: normal bold 4em 'Principal', Arial, Helvetica, sans-serif ;
+        color: #544172;
+        padding: 48px 10px 0px 10px;
+    }
+    p#subt {
+        padding-top: 20px;
+        font-size: 1.5em;
+        color: #544172;
+    }
+    form {
+        padding-top: 15px;
+    }
+    div.camp {
+        margin: 6px 6px;
+    }
+    div.link {
+        padding-top: 20px;
+    }
+    a {
+        font-size: 1.2em;
+    }
+    div#Fot {
+        float: right;
+        height: 100%;
+        max-width: 350px;
+        border-radius: 0px 20px 20px 0px;
+    }
+    p.espMaior {
+        margin-top: 40px;
+    }
+    input.subm {
+        font-size: 1.1em;
     }
 }
