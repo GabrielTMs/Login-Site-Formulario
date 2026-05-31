@@ -17,6 +17,7 @@ body {
 main {
     height: 100%;
     position: relative;
+    padding: 0px 10px;
 }
 section {
     position: absolute;
