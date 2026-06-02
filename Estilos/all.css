@@ -33,6 +33,7 @@ section {
     box-shadow: 2px 2px 3.5px #13141434;
     transition: width .3s, height .3s;
     transition-timing-function: ease;
+    overflow: hidden;
     
 }
 div#Fot {
@@ -44,7 +45,6 @@ div#Fot {
     background-size: cover;
     background-position: center bottom;
     overflow: hidden;
-    border-radius: 20px 20px 0px 0px;
 }
 h1#Titulo {
     font: normal bold 2em 'Principal', Arial, Helvetica, sans-serif ;

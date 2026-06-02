@@ -20,19 +20,19 @@
             </header>
            
             <div>
-            <form action="cadastro.php" method="post">
+            <form action="cadastro.php" method="post" autocomplete="on">
                 
                 <div class="camp">
                     <p>
                     <span class="material-symbols-outlined" id="pers">person
                     </span>
-                    <input type="text" name="nom" id="inom" class="pforms">
+                    <input type="text" name="nom" id="inom" class="pforms" required autocomplete="email" placeholder="Seu e-mail.">
                     </p>
                 </div>
                 <div class="camp">
                     <p>
                         <span class="material-symbols-outlined">password_2</span>
-                        <input type="password" name="sen" id="isen" class="pforms">
+                        <input type="password" name="sen" id="isen" class="pforms" placeholder="Sua senha." autocomplete="current-password" min="4" max="8" required>
                     </p> 
                 </div>
 

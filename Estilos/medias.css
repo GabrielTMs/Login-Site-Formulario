@@ -10,7 +10,6 @@
         float: left;
         height: 100%;
         max-width: 280px;
-        border-radius: 20px 0px 0px 20px;
     }
 }
 
@@ -49,7 +48,6 @@
         float: right;
         height: 100%;
         max-width: 350px;
-        border-radius: 0px 20px 20px 0px;
     }
     p.espMaior {
         margin-top: 40px;
